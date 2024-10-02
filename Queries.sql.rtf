@@ -1,0 +1,40 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Roman;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
+Daniela A. Gonzalez\
+Assigment 1.\
+DS5110 Section4 \
+\
+# Scenario 1\
+\pard\pardeftab720\partightenfactor0
+\cf0 SELECT Department.department_name, AVG(Course.Credits) AS avg_credits FROM Department JOIN Course ON Department.department_id = Course.department_id GROUP BY Department.department_name ORDER BY avg_credits DESC LIMIT 2;\
+\
+# Scenario2\
+SELECT Student.first_name, Student.last_name FROM Student\
+JOIN Enrollment ON Student.student_id = Enrollment.student_id\
+JOIN Course ON Enrollment.course_id = Course.Course_id\
+WHERE Student.department_id = Course.department_id\
+GROUP BY Student.student_id\
+HAVING \
+    COUNT(DISTINCT Course.Course_id) = (\
+        SELECT COUNT(*) \
+        FROM Course \
+        WHERE Course.department_id = Student.department_id\
+    );\
+
+\f1 \kerning1\expnd0\expndtw0 \
+
+\f0 # Scenario 3\
+SELECT Faculty.faculty_name\
+FROM Course\
+JOIN Department ON Course.department_id = Department.department_id\
+JOIN Faculty ON Department.faculty_id = Faculty.faculty_id\
+WHERE Course.SeatsAvailable < 10;
+\f1 \
+}
