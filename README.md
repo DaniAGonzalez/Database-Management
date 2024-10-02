@@ -12,17 +12,22 @@ Data normalization
 3)Queries on Clean File:
 Additional queries are performed on the preprocessed Final_clean file.
 
+
 4)Technologies Used:
 Languages: SQL, Python
 Databases: SQLite, PostgreSQL
 Libraries: Pandas, NumPy
 
-5) Data Science Cycle:
+
+
+5)Data Science Cycle:
 Data extraction
 Data preprocessing and cleaning
 Queries and analysis
 
-6) How to Use:
+
+
+6)How to Use:
 Clone the repository.
 Load the data into your SQL environment.
 Execute the queries to obtain results and analyses.
