@@ -1,0 +1,1 @@
+SELECT * FROM Products WHERE Price BETWEEN 15 AND 100 AND CategoryID=6

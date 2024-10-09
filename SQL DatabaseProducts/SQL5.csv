@@ -1,0 +1,12 @@
+ProductID,ProductName,SupplierID,CategoryID,Unit,Price
+74,Longlife Tofu,4,7,5 kg pkg.,10
+15,Genen Shouyu,6,2,24 - 250 ml bottles,15.5
+14,Tofu,6,7,40 - 100 g pkgs.,23.25
+13,Konbu,6,8,2 kg box,6
+12,Queso Manchego La Pastora,5,4,10 - 500 g pkgs.,38
+11,Queso Cabrales,5,4,1 kg pkg.,21
+10,Ikura,4,8,12 - 200 ml jars,31
+9,Mishi Kobe Niku,4,6,18 - 500 g pkgs.,97
+8,Northwoods Cranberry Sauce,3,2,12 - 12 oz jars,40
+7,Uncle Bob's Organic Dried Pears,3,7,12 - 1 lb pkgs.,30
+6,Grandma's Boysenberry Spread,3,2,12 - 8 oz jars,25

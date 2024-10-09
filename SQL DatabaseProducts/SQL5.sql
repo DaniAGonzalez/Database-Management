@@ -1,0 +1,3 @@
+SELECT * FROM Products
+WHERE SupplierID IN (3,4,5,6)
+ORDER BY ProductID DESC
