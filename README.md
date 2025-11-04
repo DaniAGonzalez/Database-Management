@@ -1,36 +1,32 @@
 Database Management & Full Data Science Cycle
-1)Technical Report:
-This includes queries performed on the NewData.db file, which contains information about students, universities, courses, and more.
 
-2)Data Preprocessing:
-Code examples are provided for preprocessing data using CSV, .txt, and .db file formats.
-It includes handling:
-Null values
-Duplicate values
-Data normalization
+This repository demonstrates practical experience in database management and data preprocessing as part of a complete data science workflow. It combines SQL querying, data cleaning, and analysis across multiple datasets and formats.
 
-3)Queries on Clean File:
-Additional queries are performed on the preprocessed Final_clean file.
+1) Technical Report
 
-4)Queries on Netflix dataset
-   Queries on Netflix dataset and the respective PDF reports.
+Contains SQL queries performed on the NewData.db database, which includes information about students, universities, and courses. The report focuses on relational design, data relationships, and complex query logic.
 
+2) Data Preprocessing
 
-5)Technologies Used:
-Languages: SQL, Python
+Includes Python code examples for handling CSV, TXT, and DB file formats.
+Covers essential steps in data preparation such as:
+
+Managing missing and duplicate values
+
+Data normalization and transformation
+
+Consistent formatting across sources
+
+3) Queries on Clean Data
+
+Additional SQL queries executed on the Final_clean file to validate preprocessing quality and maintain data integrity.
+
+4) Netflix Dataset Analysis
+
+SQL queries and accompanying PDF reports analyzing the Netflix dataset, showcasing filtering, aggregation, and pattern discovery in real-world data.
+
+5) Technologies Used
+
+Languages: Python, SQL
 Databases: SQLite, PostgreSQL
 Libraries: Pandas, NumPy
-
-
-
-6)Data Science Cycle:
-Data extraction
-Data preprocessing and cleaning
-Queries and analysis
-
-   
-
-7)How to Use:
-Clone the repository.
-Load the data into your SQL environment.
-Execute the queries to obtain results and analyses.
